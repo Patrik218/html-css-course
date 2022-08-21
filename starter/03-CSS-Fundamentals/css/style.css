@@ -138,7 +138,8 @@ a:active {
 
 /* Resolving conflict */
 
-#copyright {
+
+/* #copyright {
     color: red;
 }
 
@@ -151,5 +152,5 @@ a:active {
 }
 
 footer p {
-    color: green;
-}
+    color: green !important;
+} */
