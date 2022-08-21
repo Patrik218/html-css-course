@@ -32,9 +32,10 @@ p {
     line-height: 1.5;
 }
 
-ul {
+
+/* ul {
     list-style: none;
-}
+} */
 
 li {
     font-size: 20px;
@@ -62,4 +63,8 @@ li {
 .related-author {
     font-size: 18px;
     font-weight: bold;
+}
+
+.related {
+    list-style: none;
 }
