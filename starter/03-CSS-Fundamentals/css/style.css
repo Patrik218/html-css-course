@@ -32,6 +32,10 @@ p {
     line-height: 1.5;
 }
 
+ul {
+    list-style: none;
+}
+
 li {
     font-size: 20px;
 }
