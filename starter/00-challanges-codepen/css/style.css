@@ -1,0 +1,13 @@
+body {
+    border: 5px solid black;
+}
+
+h2,
+h3 {
+    text-transform: uppercase;
+}
+
+h2 {
+    background-color: lightgray;
+    text-align: center;
+}
