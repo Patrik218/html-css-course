@@ -1,13 +1,49 @@
 body {
+    font-family: sans-serif;
     border: 5px solid black;
 }
 
 h2,
-h3 {
+h3,
+.info-p {
     text-transform: uppercase;
+}
+
+.price {
+    font-size: 34px;
+}
+
+.info-p {
+    color: rgb(122, 122, 122);
 }
 
 h2 {
     background-color: lightgray;
     text-align: center;
+}
+
+.info-l {
+    color: black;
+    font-weight: bold;
+}
+
+.info-l:hover {
+    text-decoration: none;
+}
+
+.add-to-cart {
+    color: white;
+    background-color: black;
+    border: none;
+    text-transform: uppercase;
+    padding: 8px;
+}
+
+.add-to-cart:hover {
+    color: black;
+    background-color: white;
+}
+
+li {
+    list-style-type: square;
 }
