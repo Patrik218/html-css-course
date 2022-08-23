@@ -1,6 +1,7 @@
 body {
     font-family: sans-serif;
     border: 5px solid black;
+    line-height: 1.4;
 }
 
 h2,
@@ -22,12 +23,13 @@ h2 {
     text-align: center;
 }
 
-.info-l {
+.info-l:link,
+.info-l:visited {
     color: black;
-    font-weight: bold;
 }
 
-.info-l:hover {
+.info-l:hover,
+.info-l:active {
     text-decoration: none;
 }
 
@@ -42,6 +44,7 @@ h2 {
 .add-to-cart:hover {
     color: black;
     background-color: white;
+    cursor: pointer;
 }
 
 li {
