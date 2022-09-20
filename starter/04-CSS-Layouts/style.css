@@ -350,3 +350,24 @@ footer {
     margin-bottom: 0px;
     margin-left: 15px;
 }
+
+.related-post {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.related-link:link {
+    font-size: 17px;
+    font-weight: bold;
+    font-style: normal;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.related-author {
+    margin-bottom: 0px;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: italic;
+}
