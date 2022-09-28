@@ -40,7 +40,7 @@ body {
 
 header,
 section {
-    margin-bottom: 48px;
+    margin-bottom: 96px;
 }
 
 h2 {
@@ -62,13 +62,16 @@ h2 {
     text-decoration: none;
     text-transform: uppercase;
     font-weight: 500;
-    font-size: 18px;
+    font-size: 16px;
     display: inline-block;
+    border-radius: 100px;
+    box-shadow: 0px 5px 20px 5px #087f5b52;
 }
 
 .btn:hover,
 .btn:active {
     background-color: #099268;
+    box-shadow: 0px 5px 20px 5px #09926927;
 }
 
 .btn--big {
@@ -79,6 +82,10 @@ h2 {
 .btn--small {
     font-size: 14px;
     padding: 8px 12px;
+}
+
+img {
+    border-radius: 12px;
 }
 
 
@@ -97,7 +104,7 @@ header {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     column-gap: 80px;
-    margin-top: 48px;
+    margin-top: 64px;
 }
 
 .header-text-box {
@@ -105,7 +112,7 @@ header {
 }
 
 h1 {
-    margin-bottom: 24px;
+    margin-bottom: 32px;
     font-size: 44px;
     line-height: 1.1;
     letter-spacing: -1px;
@@ -128,7 +135,7 @@ img {
     stroke: #087f5b;
     width: 32px;
     height: 32px;
-    margin-bottom: 16px;
+    margin-bottom: 24px;
 }
 
 .features-title {
@@ -148,6 +155,7 @@ img {
     background-color: #087f5b;
     color: #fff;
     padding: 24px;
+    border-radius: 12px;
 }
 
 .testimonial-box {
@@ -165,17 +173,28 @@ img {
     margin-bottom: 24px;
     font-size: 18px;
     line-height: 1.6;
+    color: #e6fcf5;
+}
+
+.testimonial-author {
+    color: #c3fae8;
 }
 
 
 /* CHAIRS */
 
 .chair {
-    box-shadow: 0px 10px 30px 10px rgba(0, 0, 0, 0.1)
+    box-shadow: 0px 10px 30px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+}
+
+.chair img {
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
 }
 
 .chair-box {
-    padding: 24px;
+    padding: 32px;
 }
 
 h3 {
@@ -185,14 +204,14 @@ h3 {
 
 .chair-details {
     list-style: none;
-    margin-bottom: 24px;
+    margin-bottom: 48px;
 }
 
 .chair-details li {
     display: flex;
     align-items: center;
     gap: 12px;
-    margin-bottom: 24px;
+    margin-bottom: 16px;
 }
 
 .chair-details li:last-child {
@@ -208,6 +227,7 @@ h3 {
 .chair-price {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     font-size: 20px;
 }
 
